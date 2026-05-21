@@ -1,0 +1,14 @@
+{
+  "group_counts": {
+    "functional_target": 419,
+    "high_clip_target": 728,
+    "low_clip_control": 5733,
+    "other": 4583
+  },
+  "high_clip_cutoff_log2": 2.400258911835441,
+  "high_clip_quantile": 0.9,
+  "low_clip_cutoff_log2": 0.7951802081115019,
+  "low_clip_quantile": 0.5,
+  "n_filtered_protein_coding_genes": 11463,
+  "pearson_r_log2_clip_log2_rden": 0.36809604185341604
+}
