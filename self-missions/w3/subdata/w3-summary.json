@@ -1,0 +1,25 @@
+{
+  "group_counts": {
+    "functional_target": 419,
+    "high_clip_target": 728,
+    "low_clip_control": 5732,
+    "other": 4582
+  },
+  "median_motif_per_kb": {
+    "all_filtered_genes": 10.20714500150105,
+    "functional_targets": 9.201840368073617,
+    "high_clip_targets": 9.863785814936591,
+    "low_clip_controls": 10.238907849829353
+  },
+  "median_test_high_clip_vs_low_clip": {
+    "n_permutations": 20000,
+    "observed_median_difference_high_minus_control": -0.37512203489276175,
+    "p_value_high_greater_than_control": 0.9998000099995
+  },
+  "motif_metric": "aag_like_per_kb",
+  "n_genes": 11461,
+  "pearson_r_motif_log2_clip": 0.03310653082621995,
+  "pearson_r_motif_log2_rden": -0.17149355975088812,
+  "spearman_r_motif_log2_clip": 0.014282440493007217,
+  "spearman_r_motif_log2_rden": -0.20366216964830716
+}
