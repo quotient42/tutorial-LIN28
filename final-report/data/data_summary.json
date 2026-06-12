@@ -1,0 +1,42 @@
+{
+  "group_counts_in_gene_points": {
+    "functional_target": 419,
+    "high_clip_target": 728,
+    "low_clip_control": 5732,
+    "other": 4582
+  },
+  "metaplot_bins": 40,
+  "metaplot_groups": [
+    "low_clip_control",
+    "high_clip_target",
+    "functional_target"
+  ],
+  "source_files": {
+    "positional_context_gene_summary.tsv": {
+      "columns": 28,
+      "reduced_to": "figure_positional_region_fractions.tsv",
+      "rows": 11461,
+      "used_columns": [
+        "group",
+        "fraction_aag_like_cds",
+        "fraction_aag_like_3utr"
+      ]
+    },
+    "positional_context_sites.tsv": {
+      "reduced_to": "figure_positional_metaplot_density.tsv",
+      "rows": 632536,
+      "summary": "AAG family motif counts in 40 transcript-relative bins, normalized by number of genes per group."
+    },
+    "transcript_motif_counts.tsv": {
+      "columns": 36,
+      "reduced_to": "figure_gene_points.tsv",
+      "rows": 11461,
+      "used_columns": [
+        "group",
+        "log2_clip",
+        "log2_rden",
+        "aag_like_per_kb"
+      ]
+    }
+  }
+}
